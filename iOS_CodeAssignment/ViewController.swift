@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var factViewModel = FactsViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        factViewModel.getAllData()
     }
 
 

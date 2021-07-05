@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		FCDDBEF1269302F5008C2694 /* iOS_CodeAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDBEF0269302F5008C2694 /* iOS_CodeAssignmentUITests.swift */; };
 		FCDDBF072693066C008C2694 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDBF052693066C008C2694 /* Rows.swift */; };
 		FCDDBF082693066C008C2694 /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDBF062693066C008C2694 /* Facts.swift */; };
+		FCDDBF1826930DBE008C2694 /* FactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDBF1726930DBE008C2694 /* FactsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		FCDDBEF2269302F5008C2694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCDDBF052693066C008C2694 /* Rows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
 		FCDDBF062693066C008C2694 /* Facts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+		FCDDBF1726930DBE008C2694 /* FactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		FCDDBF0126930315008C2694 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FCDDBF1726930DBE008C2694 /* FactsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -203,7 +206,6 @@
 				705826032ECAFBDF52C2F6E5 /* Pods-iOS_CodeAssignmentTests.debug.xcconfig */,
 				CABD98A85D4BF3CA7F15C48F /* Pods-iOS_CodeAssignmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -445,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDDBF1826930DBE008C2694 /* FactsViewModel.swift in Sources */,
 				FCDDBF072693066C008C2694 /* Rows.swift in Sources */,
 				FCDDBED3269302F1008C2694 /* ViewController.swift in Sources */,
 				FCDDBECF269302F1008C2694 /* AppDelegate.swift in Sources */,
