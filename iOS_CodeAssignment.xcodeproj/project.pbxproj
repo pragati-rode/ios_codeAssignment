@@ -99,6 +99,10 @@
 		FCDDBECD269302F1008C2694 /* iOS_CodeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				FCDDBF042693034A008C2694 /* Controller */,
+				FCDDBF0326930339008C2694 /* View */,
+				FCDDBF0226930326008C2694 /* Model */,
+				FCDDBF0126930315008C2694 /* ViewModel */,
 				FCDDBECE269302F1008C2694 /* AppDelegate.swift */,
 				FCDDBED0269302F1008C2694 /* SceneDelegate.swift */,
 				FCDDBED2269302F1008C2694 /* ViewController.swift */,
@@ -126,6 +130,34 @@
 				FCDDBEF2269302F5008C2694 /* Info.plist */,
 			);
 			path = iOS_CodeAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		FCDDBF0126930315008C2694 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCDDBF0226930326008C2694 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCDDBF0326930339008C2694 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCDDBF042693034A008C2694 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
